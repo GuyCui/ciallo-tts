@@ -7,7 +7,7 @@ let isGenerating = false;
 const API_CONFIG = {
     'workers-api': {
         url: 'https://1220.tts-api.zwei.de.eu.org/tts',
-        authToken: 'your-key'
+        authToken: 'bestZwei1225'
     },
     'deno-api': {
         url: 'https://deno-tts.api.zwei.de.eu.org/tts'
@@ -149,7 +149,7 @@ async function generateVoice(isPreview) {
     }
 
     if (isPreview) {
-        const previewText = text.substring(0, 20);
+        const previewText = text.substring(0, 200);
         try {
             const blob = await makeRequest(apiUrl, true, previewText, apiName === 'deno-api');
             if (blob) {
