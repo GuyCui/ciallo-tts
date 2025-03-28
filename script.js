@@ -149,7 +149,7 @@ async function generateVoice(isPreview) {
     }
 
     if (isPreview) {
-        const previewText = text.substring(0, 200);
+        const previewText = text;//.substring(0, 200);
         try {
             const blob = await makeRequest(apiUrl, true, previewText, apiName === 'deno-api');
             if (blob) {
