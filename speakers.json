@@ -1,6 +1,7 @@
 {
     "workers-api": {
         "speakers": {
+            "zh-CN-XiaorouNeural": "晓柔",
             "zh-CN-XiaoxiaoNeural": "晓晓",
             "zh-CN-YunxiNeural": "云希",
             "zh-CN-YunjianNeural": "云健",
@@ -12,7 +13,6 @@
             "zh-CN-XiaomengNeural": "晓梦",
             "zh-CN-XiaomoNeural": "晓墨",
             "zh-CN-XiaoqiuNeural": "晓秋",
-            "zh-CN-XiaorouNeural": "晓柔",
             "zh-CN-XiaoruiNeural": "晓睿",
             "zh-CN-XiaoshuangNeural": "晓双",
             "zh-CN-XiaoxiaoDialectsNeural": "晓晓 方言",
